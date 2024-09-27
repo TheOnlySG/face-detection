@@ -1,8 +1,15 @@
 # Project About :
 the face detection program detects your face using harrcascade and puts a square around your face.
 the camera named program is a image capturing program .
+haarcascade_frontalface_default.xml must bekept in the same folder which contains the facedetection program.
+
 library used = opencv
-haarcascade_frontalface_default.xml must bekept in the same folder which contains the facedetection program
+# how to install opencv?
+type the following in your terminal and hit enter. 
+
+pip install opencv-python
+
+it would install open cv and some other essential libraries.
 # opencv functions used :
 **1)cv2.videocapture()**--
 cv2.VideoCapture(0) opens the default camera, and you can pass 1 or other indices for different cameras if available.
