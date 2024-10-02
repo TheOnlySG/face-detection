@@ -28,7 +28,7 @@ while True:
     cv2.imshow('video_live', video_data)
 
     # Printing the current frame data to the console (for debugging purposes)
-    print(video_data)
+    print(video_data)  #you can comment this line if you dont need it.
 
     # Checking if the 'q' key is pressed to break the loop and exit
     if cv2.waitKey(10) == ord('q'):
